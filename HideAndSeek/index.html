@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+     html,
+     body,
+     header,
+     .carousel{
+       height: 60vh;
+     }
+     @media (max-width: 740px) {
+       html,
+       body,
+       header,
+       .carousel{
+         height: 100vh;
+       }
+     }
+     @media (min-width:800px) and (max-width:850px) {
+       html,
+       body,
+       header,
+       .carousel{
+         height: 100vh;
+       }
+     }
+  </style>
+</head>
+
+<body>
+   <nav class = "navbar fixed-top navbar-expand-lg  navbar-light white scrolling-navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand waves-effect ">
+          <strong class="blue-text">HAS</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle = "collapse"
+                data-target = "#navbarContent" aria-controls="navbarContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="" class="nav-link waves-effect">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link waves-effect">Product</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link waves-effect">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link waves-effect">Blog</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">
+                <span class="badge red z-depth-1 mr-1">4</span>
+                <i class="fa fa-shopping-cart"></i>
+                  <span class="clearfix d-none d-sm-inline-block">Cart</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border border-light rounded waves-effect">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+   </nav>
+  <div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride = "carousel">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+      <li data-target="#carousel-ex" data-slide-to="1"></li>
+      <li data-target="#carousel-ex" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view" style="background: url('https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?auto=compress&cs=tinysrgb&h=350') no-repeat;background-size:cover;">
+              <div class="mask rgba-black-strong d-flex
+              justify-content-center align-items-center">
+                <div class="text-center white-text mx-5 wow fadeIn">
+                  <h1 class="mb-4">
+                    <strong>HIDE AND SEEK</strong>
+                  </h1>
+
+                  <p>
+                    <strong>
+                      Welcome to the new online store. We promise to surprise you.
+                    </strong>
+                  </p>
+
+                  <p class="mb-4 d-none d-md-block">
+                    <strong>
+                      New Trend. New fashion. New style. We are the most unique brand of modernity.
+                    </strong>
+                  </p>
+                  <a href="#" class="btn btn-outline-white btn-large ">
+                    learn more. <i class="fa fa-graduation-cap ml-2"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="view" style="background: url('https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&h=350') no-repeat;background-size:cover;">
+          <div class="mask rgba-black-strong d-flex
+              justify-content-center align-items-center">
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>HIDE AND SEEK</strong>
+              </h1>
+
+              <p>
+                <strong>
+                  Welcome to the new online store. We promise to surprise you.
+                </strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>
+                  New Trend. New fashion. New style. We are the most unique brand of modernity.
+                </strong>
+              </p>
+              <a href="#" class="btn btn-outline-white btn-large ">
+                learn more. <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="view" style="background: url('https://images.pexels.com/photos/1555504/pexels-photo-1555504.jpeg?auto=compress&cs=tinysrgb&h=350') no-repeat;background-size:cover;">
+          <div class="mask rgba-black-strong d-flex
+              justify-content-center align-items-center">
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>HIDE AND SEEK</strong>
+              </h1>
+
+              <p>
+                <strong>
+                  Welcome to the new online store. We promise to surprise you
+                </strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>
+                  New Trend. New fashion. New style. We are the most unique brand of modernity.
+                </strong>
+              </p>
+
+              <a href="#" class="btn btn-outline-white btn-large ">
+                learn more <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#carousel-ex" class="carousel-control-prev"
+       role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#carousel-ex" class="carousel-control-next"
+       role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+   <main>
+     <div class="container">
+       <nav class="navbar navbar-expand-lg
+       navbar-dark mdb-color lighten-3 mt-3 mb-5">
+         <span class="navbar-brand">Categories</span>
+
+          <button class="navbar-toggler" type="button" data-toggle = "collapse"
+                 data-target = "#nextNav" aria-controls="nextNav"
+                 aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <div class="collapse navbar-collapse" id="nextNav">
+           <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+               <a href="#" class="nav-link">All</a>
+             </li>
+             <li class="nav-item">
+               <a href="#" class="nav-link">Shirts</a>
+             </li>
+             <li class="nav-item active">
+               <a href="#" class="nav-link">Sport wears</a>
+             </li>
+             <li class="nav-item">
+               <a href="#" class="nav-link">Outwears</a>
+             </li>
+           </ul>
+           <form class="form-inline">
+             <div class="md-form ny-0">
+               <input type="text" class="form-control mr-sm-2"
+                      placeholder="Search" aria-label="Search">
+             </div>
+           </form>
+         </div>
+       </nav>
+       <section class="text-center mb-4">
+         <div class="row wow fadeIn">
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExITExUXFRUYFxMVFxIVFxcTFRcZGBUYExUYHSkgGB8lGxUVITEhJikrLi4uFyIzODMsNygtLisBCgoKDQ0NDw0NDisZFRkrKysrKysrKysrKysrKysrLSsrKysrKysrKysrKysrKysrKysrLSsrKysrKysrKysrK//AABEIAQMAwgMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAwQBBQYCBwj/xAA+EAACAgEDAgQDBgMGBAcAAAABAgADEQQSIQUxEyJBUQZhcRQjMoGhsQdSkRUzQsHR8CRykrI0U2RzgrPh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD7hERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBEwDntMwEREBERAREQEREBERAREQEREBESDV6pa1y2foBkwJ5FdqFX8TAfL1/pNK/U7LchCEwcEZ5I/wCb0lR9A3+Jiecg+v8A1esDcW9U/lGfr/pNe2paz8RPB7eny4lYaRhznPzkwXBz2z3Eqr9eqccAhh8/9ZKdc/8AKB8+Zr20+7twR695zXxp8N26xK6wVIDFmGOCu3GMkkA88eVvpA7X7Y/pt/X/AFkN19h/xAD2GBmaL4f6D9mq2eVc4O1d2A2MEktySQB7dpuq6h6nMCvpbGrUDke+Pc8n9cy3T1NvbP1GP1E8tUPnPePlAt6XXq4/lPqD7/WW5pPC5yO8sUF19ePbvIjZxIa7we/Bk0BERAREQEREBERAREr6zVBB7k9hA867WCse7Hsvv9fYTX22H8Tc5747f09pTLFn3NyTLp/C3/Kf2lVFZo0bDDjPqOO880WFTsfn+VveWdCwZFI9p4tQE7W7HsfYwM4wcHt6GYaqe1HG1u/v7wAR74gRpx+X7SQ5kWt1QRCxRmxjyqATyQM847Zz9BOfs+LW2qa9OMEHJsvoTwznG11Usc42Nx6OIHTBpIKwexnG6z4mtZXanwMLYUPk1Nj/APh/EB8NVBzv59QVwM7jxY6d1PVjduovuJCEHw0prAcbgFY+ZiFZQ2exUwOr2mY2ylX1ICnxrXrrUDNm50K1n1DODjiUbvjHSLR9o+0I9ZsFamvNha09kRUBLN64x257QNuz49JJTZkZmv6V1qvVacX0sWRiy8qysHVtrKysMggy/swuPaBI0npu9D/WQJzM4gXokFNnoZPIhERAREQERMGBHqbwi57n0HuZy1+sfflx3/T6TXv8S3U3mvWINpPFiAjA98eo/UfOdIa67UBBVlIyGBz/AEIlVWosDAGXqBNQdMQje4Mv9OvyMeogRadTXbgEFGycfykS9rwoRmYhVUFix9AoySfpiQMoLt/8R+mf85468f8AhNQP/T3f/W0DT9N+OtBalxGprbwK2ssI3ZFa92UYy3oOM9x7yhT/ABI05o1N/halBp667NltYRrUubbS1XmOQzY5OO8+a2Gx9M5tqNJXodQoAKuLaltr8S1mU+TsuEI7E8y/8eWYOsKsGQdP6fyMHy/a6inP0hG7PV6TYa9ToBVc2r09GortvNyLVej3LYNuFyApzx+ZxxnT9Yt3aRhTp0o1P9pXV1+EpcUUUhqHYvnzsfMfcY+cq/HnV6+pMmlrIWkdS0dI1dTiwWePRZ4m3aMAruC9z+XaY0r3WHQ1PXYbtJV1bS2EV2FSy6cJQ2QOzqFAPqQYFb4X+INZ1E6fTPqXrtarWi1k21lg1Vb6Z22AY2+Nxgf4feW/iU6il+p1tqbLANPoa1Y4UpTdfsKLjudpILdzk5kvw30v7LrNBrbAtVa9NSrUlylZruVNiiwMQQSNg7dxLvXBp9aeqWprafCbS6b7yotc1X2dmsLWLWDkHHoScA8cQNN1LptVGt1GlqRUoOu6LmkZ2FXL79wPHJC59+JstKir1MAABR1m3AAAGfsAxgD5z11PpNZW+3Vaqx9VbXTrvE01QrFVWhQ+FsS1vxHzcH19sc77pHwbpdRpUZ31LtZcdX45s8O7x2G3dmvAXygDA4ED1/D2z7i0e/UNaf6WnE69kx7maurpdWlqqqoXYiMcDJJyxyzMx5Ykkkk+83Tcj8oVHVD2gSNzjgd5JXWF5PJgYVWPPYSxQ+OCc/OVdXqNo3cn2UdyfQCaWnp2rubNtxrBORXXwAPb5/nA6yJFpatiKpYtgY3HufrJZEIiICIiBrus9Ir1CbXUH2M4FqNT05yyZspz5kPb/wDD8x+s+nyDVaZXGCP9/OBpel9X0+pXNbAkjlDww+o9fqOJi2jw3BHYmc/8Q/CoQG2nKMvmwO3HOR7Tp9F97p6y58zIrfPJUZlV7UAlj7MP+1czHUNL4tT18gWI6EjuA6lSR/WR9GUhCHDK29+GBBK7iFPPuMS+Xx2EDmtH8G0L4QfdYK9IdHtfbhqDtzvAH4vKOQZr9T0DQaLR6urSVVC167Pu2ze1lldbMiMjliwwPw9ufczr9Xay4YLkA+YDJYL7qB+LHt3I7c8Hh+t9ORKNTcbha60veoJfaV8NslWJ7O3mIU4GR78hrtfZ4fT6RSpoZLtKLDUiVKGuwbgoUeUhWG44GM9+DNVq7Q+m1wTUPqaE1uiSl2uN3kd6xYA+ckEs4m2+IK0s6ZpMVhi2o01hXDWeZ2zZtDZOMFvoMzx1DpN7/wBpCrT2tv1uiasKm0OlPhmw1lsKQNhGc4zAg1XTKqa+u11VoiKdMAgAwAaqmOPzJP1M6P4g6JWmh1uoG7dboNrAbdqpXQ/4FAHP3jk5PPbiU7Oj6u9Opn7OKG1hp8FLbajxUlaMXNTNj8BPGfSWqPhvVWHVC+3T1nUaL7OtdTW2hFCms2kOEycMM4A7CEc1qNRcxte5Kl3dFvNa1s77a9tn94WUbmPyAA+c+kfB5/4LTf8Asp+01Y+GKmda2ssLroW077VTb4Vm5QxDBsMfPgHIO3ke+66OoCqlfNNahFc4y5XjK7cDaMEZxye2AMkqx1AZWTadsoJi2xRwSM+08pnPGAD7QPajnM9XWBRuY4A9f99/pMonBlerTlmDNyR+FT2X3OPUn39vzgZoQudxGP5VPoPc/P8AabBFxCJiepEIiICIiAiIgIiIHi2oMMEZE8aXTLWoVRgAAD6DtJoga3WfjJHoBMfiXIODPV6+d/qP+0SudXWtgrNiK5XcKyyhiucZCnkjPEqtdYzu7eHaPEQYaliwDLk7SQRlQecWKCD67sYEN2gVgWUHIOXrYBmrdu5KAkMrf4lHB/Ep3DmbU27SEuqZkBJS2rdvr5OMKDv/AA4HlznJ4xLunY7CyMt58wDhVVgMZVbRkc7hzgDuOByYGvOr87pRhtjqHLMK1rYDlU9bBwMrwAS3mzwLdZurILVhsbvVgQHIYgAFwewxuK9u8/LZ+J9WtjMXwxYls11Z3Fstu3KTnOe8634e/inqKSBYCF4y1YHCjA5pbyn6Ls794H3am+oeG7WbQiOu1wASW2kkEEhsBDnaSOe/EabqFIay3xaizbQilwua1B2LlvdzYcjPfHOJzvQviCnXpxbXlsDcBlGY9ltRuVb2VvfysTNZ1b4eNNqvvvAJYsDbe3mw2N7ZO5ceIVdvw8g4JGQ7QAEFd48NsvqL1Yecnjw0IOVAAAJ9FCgZJLLizqZf+7+6pXHnwoZwOwQMMVoeBuPJ9AvDTnvhaopfamU3GpWCMVKAqxO98ZILYyAf/KZuC5M6Ch94JVBfYCCGceFQrYODTweOT5lDE5/F7BdsRm528yxpCcjMh0AsVj4tgcnGAqhUXGfwjljnPJLHtxiWUrIsHsf0MC21QPy+Y4hK8fP5z3EiEREBERAREQEREBERAREQNdqch2I7cfsJX1dAtrKjw2z/ADoLU+eUyM8fMS3ZYDY647Bc+3Of8hNbqun1KmBpUtAORWqUfiI/EA5VQeAM59pVVb+j2YCoEQAADY71KPU7aSrp3z/rJK9V4bDx0IwMi4EcBcnazKc+/HY5kadMBHk0FKZwcOaU5+fhK/bJlnVUrYGpZkdSu1kBZ2BYEc7fwjGeT+kD8+fxKt6ZqdQ1+jtNVjsfGqsrcIX53OjKDgk9x2PfPvyT9OzgrbR8hv28j23AT6z17+EFRsJp1H2bvgWguhPp94Wyo79w3efLNd0nwGsWyytwpdAarK2JdezAHzbN2PNgZEiJtFpNZpSt1YxuU4ZHrsVkDFW3qrEFMqw8wxxPqnwn/Exb6TVqOLa62avjdvZOdqlj51IUgqeee5xlfjOp1RYVgH+7UquODje1mTjgcue3tI6y2QwbDdw2cEMDwd3vkQP0R1DXV1dSqZAQ2yt7Tg8i3UU6aksf5sXWofU+FzOutC7vMurvZW45CJ/05RHA9yDPk/wP8Qf2k1FDqBqd1QvsVebKNMfGpYnOF2uASfXCr6jH2C4jJy2prJ/lQOo7diqOo/M+sqlFhx/cGlVOFBNXbPotbEATZ1t2/Ka2qgWbwmrdyAVYD7MSjHsSBXw3HAbj5GW9BWVAVmLlcDc20E/M7QBn6AQNjERIhERAREQEREBERAREQEREDS26xUts3HHI/QCeh1ND280ajTAWMxUNu75API7YlfVdLptTDVgqfxKex+RHYj5Sq1t+rpsBPm1W3ysC/wByMZybBkU8Y54LD2mo+LviezTaejwilZewjCq+3wx5BsHlJAsspORjIBxgGdDfp6q2HBsYgeHRxgbMHKp2UAgHe3bOARkCct8c9D1Wqt05qSi41DN1HjFCu9gy4bGcE1qckDPh9ucAOE69WusYWXeHYzbjk26zThNibh5LWtVSeRxwSDNPR8KVOcGm9+Fx4Wr0reXC4xvpXPDj19J12t+EtSSyv03UJUaiv3F2mvbxGIDMC7KQNgIAx3bPylK7paqMNR1Cnjbut0VjAIN2MmvIbyhAcEjJPAHYOU6/odJpkqOnqvaxmsrYXvUwrsQpnC0D7wkOP8WOcEGdN/Cb4Ossusv1dFNtHh+GqWqrg2OEsXw1xhdqeoxjdtHrjQdN6Jb1G+vTV7kb7XqHZ2Vk8Ohlp85B7H7s4Gc5+uZ+hOnaCrTVJpq02UIPCAOQdx5Bz/i3ZPm77j7ngjW6D4co0rPZp6KdJlfNcgU+Ucsrhuy8A8e3cYlgaE7g7ruLcjUUHAII4LgEPg/IuPnL51B3eGH2sCArHzBmVQzJZ2w2DuwMEjkZwRIKx5mFP3FucvS4JrcZ5ZVBH4ufvF9T5gSNsKxpUvUgjUM6HBxYqN5COyMoVh9W3TcpZkg/TMgbJXzDDY5AOcH1AOBn64ntK8f1H9IGxiIkQiIgIiICIiAiIgIiICIiBQ1AG4n5/wCQkFmSjeGyqxB2lgWAPoSoIz9MiS6g+dvy/YSrz6DnMqoWJTbUrNZaVP3jgNtHP3loXaMbuAoxnsOASIq0Ff3FZLuw33WE+chuC7suPM2CBjAAU4wFAl9MHPGCe/uccDPvJEQDJ4H+cDV6nWNSXuudaq8pWg5OdxAGFUZLMxwAMnCj3M5EfHmrZB5VVimoRimm1eF1Ckmohrwi7QgJbdjkH6DhP4n/ABVrU6ktd7gU6e+u6lK12hlB3I5JOWbaSp5xnOAJvdf1/QqzbtdWQwKZVamDVIFXBApfChXuK1PuV2wcqCBA2zdZ6jcxKV6nJ+ylRt0lIUqD4pJD2Oa7WGeQdox3GZzXR/4xhHaq+l7KXusLWNebXRLG7VfdrlFHZe+PabXS9Av6j4VtGo1dOj2IW81lbOUYGrwVbgMoALMo8POCgJziZP4M6Q6gWrdZ4GQ32cgHsc7fFJzt/LOPX1gfTyVJ8ihiQuXwOQvK5Prgkn85Nt7E9x/s/tMCsAYHH0ma7cHa39feB6aFPAMy3H0jgcQL8QIkQiIgIiICIiAiIgIiICIiBr9RjeT68fsIaR65RuOfl+wlYBj24lVacgcyNLQe4MxXR7nJllVgazW/Dmltvr1VlCWW1rtR2Gdq53DCnjIJOCRkZOO899W6HptTt8eiq7acqXRWIPyJ9Pl2mzAmQsCGsYIHymU04B4ntk5yIKsfXEAVA7meLFBHuR7TB0invk/UyP7MVOUP5H1gR/a8cMCB7yXg8xY4YduYXHoMQNmJmYEzIhERAREQEREBERAREQEREDXak/eHt6d/pPBP0/WX306k5Pf6zH2Vfb9TAoVsf95llRJhpU/l/eSBB7Sqq4mC2JaNY9p4OmX2/UwKjXH0x+szWzepH5Zlsadfb94FA+cCHmY59pY8IR4XzgVjWDMFMdu8s+EZ5FJ+UCZe0zAiRCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiB//Z" alt="Nasa">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+             <div class="card-body text-center">
+               <a href="#" class="grey-text">
+                 <h5>T-shirt</h5>
+               </a>
+
+               <h5>
+                 <strong>
+                   <a href="#" class="dark-grey-text">RockIn <span class="badge badge-pill danger-color">NEW</span></a>
+                 </strong>
+               </h5>
+               <h4 class="font-weight-bold blue-text">
+                 <strong>199$</strong>
+               </h4>
+             </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="data:image/jpeg;base64,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" alt="Nasa">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center">
+                 <a href="#" class="grey-text">
+                   <h5>T-shirt</h5>
+                 </a>
+
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">RockIn <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>56$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="data:image/jpeg;base64,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" alt="Rock">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center wow slideInLeft">
+                 <a href="#" class="grey-text">
+                   <h5>T-shirt</h5>
+                 </a>
+
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">Bradd <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>44$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5l-bBqROw22RK8qH-AqtQYlPLvIU1Uj_37Jyok3kwQTvGMT_EWA" alt="Nasa">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center">
+                 <a href="#" class="grey-text">
+                   <h5>Dress</h5>
+                 </a>
+
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">Jidi dress <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>58$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="row wow rotateInUpLeft">
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQELbPhaiqvB8wQSF45R1ZOx9kjsJroXRDxj5GOcgX_CLMTv5Ng" alt="Nasa">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center">
+                 <a href="#" class="grey-text">
+                   <h5>Costume</h5>
+                 </a>
+
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">Ostio <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>300$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuWA9STgIbNsEFNYqGONpweXIyIKRbaNUO2loTzmAtoGo27PS" alt="Custome">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center">
+                 <a href="#" class="grey-text">
+                   <h5>Dress</h5>
+                 </a>
+
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">Ricky-tiki <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>299$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp-9gS4gDSyM3dchq9arDHbaWrkrL6fcZuCa8d4cOjvzvAspR4" alt="Dress">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center">
+                 <a href="#" class="grey-text">
+                   <h5>Dress</h5>
+                 </a>
+
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">Cooper <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>100$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-6 mb-4">
+             <div class="card">
+               <div class="view overlay">
+                 <img class = "card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZxx8mpHG0A2pY5rOzB4iaIJc9I5KWS-7qV1Mp7rQLi6DZ2SrB7g" alt="Dress">
+                 <a href="#">
+                   <span class="mask rgba-white-slight"></span>
+                 </a>
+               </div>
+               <div class="card-body text-center">
+                 <a href="#" class="grey-text">
+                   <h5>Dress</h5>
+                 </a>
+                 <h5>
+                   <strong>
+                     <a href="#" class="dark-grey-text">Milly <span class="badge badge-pill danger-color">NEW</span></a>
+                   </strong>
+                 </h5>
+                 <h4 class="font-weight-bold blue-text">
+                   <strong>77$</strong>
+                 </h4>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <nav class="d-flex justify-content-center wow fadeInLeftBig">
+         <ul class="pagination pg-blue">
+           <li class="page-item disabled">
+             <a href="#" class="page-link" aria-label="Previous">
+               <span aria-hidden = "true">&laquo;</span>
+             </a>
+           </li>
+           <li class="page-item active">
+             <a href="#" class="page-link" aria-label="Previous">
+               <span aria-hidden = "true">1</span>
+             </a>
+           </li>
+           <li class="page-item ">
+             <a href="#" class="page-link" aria-label="Previous">
+               <span aria-hidden = "true">2</span>
+             </a>
+           </li>
+           <li class="page-item">
+             <a href="#" class="page-link" aria-label="Previous">
+               <span aria-hidden = "true">3</span>
+             </a>
+           </li>
+           <li class="page-item">
+             <a href="#" class="page-link" aria-label="Previous">
+               <span aria-hidden = "true">4</span>
+             </a>
+           </li>
+           <li class="page-item">
+             <a href="#" class="page-link" aria-label="Previous">
+               <span aria-hidden = "true">5</span>
+             </a>
+           </li>
+           <li class="page-item ">
+             <a href="#" class="page-link" aria-label="Next">
+               <span aria-hidden = "true">&raquo;</span>
+             </a>
+           </li>
+         </ul>
+       </nav>
+     </div>
+   </main>
+  <footer class = "page-footer text-center font-small mt-4 wow fadeIn">
+     <div class="pt-4">
+
+       <a href="#" role="button" class="btn btn-outline-white">BUY <i class="fa fa-graduation-cap ml-2"></i></a>
+       <a href="#" role="button" class="btn btn-outline-white">log in<i class="fa fa-graduation-cap ml-2"></i></a>
+
+     </div>
+    <hr class="my-4">
+    <div class="pb-4">
+      <a href="#">
+        <i class="fa fa-facebook mr-3"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-twitter mr-3"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-youtube mr-3"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-github mr-3"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-google-plus mr-3"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-dribbble mr-3"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-pinterest mr-3"></i>
+      </a>
+      <div class="footer-copyright py-3 mb-9">
+        HIDE AND SEEK
+      </div>
+    </div>
+  </footer>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+   <script>
+       new WOW().init();
+   </script>
+</body>
+
+</html>
